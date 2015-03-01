@@ -38,6 +38,12 @@ Please refer to the [t gem documentation](https://github.com/sferik/t#usage-exam
 ### Exit
 Type `exit` to quit the CLI.
 
+## Demo
+
+<script
+ type="text/javascript" src="https://asciinema.org/a/14.js" id="asciicast-14" > 
+ </script>
+
 
 ## <a name="todo"/>To Do: Feature Builds / Refactoring
 1) Add 'staff' feature to `list` and `follow` commands. A StaffScraper class is built, but currently returns all staff including instructors. Needs to be refactored to return non-instructor staff only.
