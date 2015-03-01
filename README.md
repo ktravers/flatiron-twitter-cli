@@ -1,5 +1,5 @@
 # FLATIRON TWITTER CLI
-#_a command-line tool for tweeting @ Flatiron School_
+_a command-line tool for tweeting @ Flatiron School_
 
 This CLI is an extension of [sferik's t gem](https://github.com/sferik/t) that allows users to auto-follow all members of the current Flatiron Web Intensive class, as well as all current Flatiron Instructors. 
 
@@ -63,7 +63,7 @@ Type `exit` to quit the CLI.
 
 Happens inconsistently upon running `bin/run` command. Usually resolved by running `bin/run` command again.
 
-6) Gemify. Turn this little program into a legit gem.
+6) Gemify. After the above kinks are ironed out, turn this little program into a legit gem.
 
 
 ### Credits

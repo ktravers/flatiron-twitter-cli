@@ -1,12 +1,10 @@
-require 'open-uri'
-require 'nokogiri'
-
 class StaffScraper
 
   def call
     html = open("http://flatironschool.com/team")
     staff_doc = Nokogiri::HTML(html)
 
+    ## WHY DO INSTRUCTORS GET INCLUDED IN THIS SEARCH?
     staff_doc.search('#staff div:nth-child(2) div.person-box').collect do |member|
       name = member.search('h2').text
       role = member.search('strong.title').text
@@ -26,6 +24,6 @@ class StaffScraper
         staff.role = role
       end
     end
+    #=> CREATES 39 STAFF INSTANCES: 24 STAFF & 15 INSTRUCTORS
   end
-
 end
