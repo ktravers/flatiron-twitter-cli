@@ -39,8 +39,7 @@ Please refer to the [t gem documentation](https://github.com/sferik/t#usage-exam
 Type `exit` to quit the CLI.
 
 ## Demo
-
-<script src="https://asciinema.org/a/14.js" > </script>
+[Follow this link](https://asciinema.org/a/17177) for a video of the CLI in action.
 
 
 ## <a name="todo"/>To Do: Feature Builds / Refactoring
