@@ -1,5 +1,5 @@
 # FLATIRON TWITTER CLI
-#_a command-line tool for tweeting @ Flatiron School_
+_a command-line tool for tweeting @ Flatiron School_
 
 This CLI is an extension of [sferik's t gem](https://github.com/sferik/t) that allows users to auto-follow all members of the current Flatiron Web Intensive class, as well as all current Flatiron Instructors. 
 
