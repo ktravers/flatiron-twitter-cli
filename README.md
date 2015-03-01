@@ -1,7 +1,7 @@
 # FLATIRON TWITTER CLI
-_a command-line tool for tweeting @ Flatiron School_
+#_a command-line tool for tweeting @ Flatiron School_
 
-This CLI is an extension of [sferik's t gem](https://github.com/sferik/t) that allows users to auto-follow all members of the current Flatiron Web Intensive class, as well as Flatiron Instructors and Staff. 
+This CLI is an extension of [sferik's t gem](https://github.com/sferik/t) that allows users to auto-follow all members of the current Flatiron Web Intensive class, as well as all current Flatiron Instructors. 
 
 This project is very much still a work in progress. Please contribute by a) refactoring existing feature code and/or b) building out any of the ['pending' features listed below](#todo). 
 
@@ -12,33 +12,34 @@ Run `bundle install` from terminal to install required gems.
 You'll want to configure OAuth for Twitter's API first, so after you bundle, run `t authorize` and follow the instructions on-screen. If you run into any trouble, please refer to the full auth instructions [available on the t gem README](https://github.com/sferik/t#configuration).
 
 ## Initialization
-Run `bin/run` from terminal to start the program!
+Run `bin/run` from terminal to start the program.
 
 ## Commands
 ### Help
-Type `help` to see a list of Flatiron-specific commands.
+Type `help` to see a list of Flatiron-specific commands.  
 Type `t help` to see a list of Twitter CLI commands.
 
 ### Follow
-Type `follow`, then enter one of the subcommands below:
- -- enter `students` to follow all current Flatiron students.
- -- enter `instructors` to follow all current Flatiron instructors.
- -- enter `all` to follow all current Flatiron students and instructors.
+Type `follow`, then enter one of the subcommands below:  
+ -- enter `students` to follow all current Flatiron students.  
+ -- enter `instructors` to follow all current Flatiron instructors.  
+ -- enter `all` to follow all current Flatiron students and instructors.  
 
 ### List
-Type `list`, then enter one of the subcommands below:
--- enter `students` to see a full list of current Flatiron students and their Twitter handles.
--- enter `instructors` to see a full list of current Flatiron instructors and their Twitter handles.
--- enter `all` to see a full list of current Flatiron students and instructors and their Twitter handles.
+Type `list`, then enter one of the subcommands below:  
+-- enter `students` to see a full list of current Flatiron students and their Twitter handles.  
+-- enter `instructors` to see a full list of current Flatiron instructors and their Twitter handles.  
+-- enter `all` to see a full list of current Flatiron students and instructors and their Twitter handles.  
 
 ### Twitter t gem commands
-All valid [t gem](https://github.com/sferik/t) commands are available inside this CLI.
+All valid [t gem](https://github.com/sferik/t) commands are available inside this CLI.  
 Please refer to the [t gem documentation](https://github.com/sferik/t#usage-examples) for the full list of valid commands.
 
 ### Exit
 Type `exit` to quit the CLI.
 
-## <a name="todo"/>TO DO
+
+## <a name="todo"/>To Do: Feature Builds / Refactoring
 1) Add 'staff' feature to `list` and `follow` commands. A StaffScraper class is built, but currently returns all staff including instructors. Needs to be refactored to return non-instructor staff only.
 
 2) Add `select class` feature so users can choose to list/follow other Flatiron School classes, like Ruby-006, ios-001, etc. Currently app can only be used with Ruby-007 students and instructors.
