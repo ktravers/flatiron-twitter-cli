@@ -40,7 +40,7 @@ Type `exit` to quit the CLI.
 
 ## Demo
 
-<script type="text/javascript" src="https://asciinema.org/a/14.js" id="asciicast-14" async="async" > </script>
+[Follow this link](https://asciinema.org/a/17177) for a video of the CLI in action.
 
 
 ## <a name="todo"/>To Do: Feature Builds / Refactoring

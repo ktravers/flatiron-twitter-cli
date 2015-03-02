@@ -34,11 +34,7 @@ class FlatironTwitterCLI
   end
 
   def command(input)
-    if input.slice(0,2) == "t "
-      system(input)
-    else
-      send(input) if command_valid?(input) 
-    end
+    input.slice(0,2) == "t " ? system(input) : send(input) if command_valid?(input) 
   end
 
   def command_valid?(input)
