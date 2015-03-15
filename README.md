@@ -42,9 +42,9 @@ Type `exit` to quit the CLI.
 
 ## Demo
 
-<script type="text/javascript" src="https://asciinema.org/a/17177.js" id="asciicast-17177" async></script>
+<script type="text/javascript" src="https://asciinema.org/a/17177.js" id="asciicast-17177" async> </script>
 
-## <a name="todo"/>To Do: Feature Builds / Refactoring
+##<a name="todo"/></a>To Do: Feature Builds / Refactoring
 1) Add 'staff' feature to `list` and `follow` commands. A StaffScraper class is built, but currently returns all staff including instructors. Needs to be refactored to return non-instructor staff only.
 
 2) Add `select class` feature so users can choose to list/follow other Flatiron School classes, like Ruby-006, ios-001, etc. Currently app can only be used with Ruby-007 students and instructors.
@@ -63,7 +63,7 @@ Type `exit` to quit the CLI.
   from /Users/ktmoney/Documents/Documents/Flatiron/flatiron_projects/flatiron-twitter/lib/instructor_scraper.rb:7:in `call'
   from /Users/ktmoney/Documents/Documents/Flatiron/flatiron_projects/flatiron-twitter/lib/controllers/flatiron_twitter_cli.rb:8:in `initialize'
   from bin/run:5:in `new'
-  from bin/run:5:in `<main>'
+  from bin/run:5:in `main'
   ```
 
 Happens inconsistently upon running `bin/run` command. Usually resolved by running `bin/run` command again.
