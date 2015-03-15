@@ -40,8 +40,7 @@ Type `exit` to quit the CLI.
 
 ## Demo
 
-[Follow this link](https://asciinema.org/a/17177) for a video of the CLI in action.
-
+<script type="text/javascript" src="https://asciinema.org/a/17177.js" id="asciicast-17177" async></script>
 
 ## <a name="todo"/>To Do: Feature Builds / Refactoring
 1) Add 'staff' feature to `list` and `follow` commands. A StaffScraper class is built, but currently returns all staff including instructors. Needs to be refactored to return non-instructor staff only.
