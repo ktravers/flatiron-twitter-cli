@@ -1,3 +1,5 @@
+[![Code Climate](https://codeclimate.com/github/ktravers/flatiron-twitter-cli/badges/gpa.svg)](https://codeclimate.com/github/ktravers/flatiron-twitter-cli)
+
 # FLATIRON TWITTER CLI
 _a command-line tool for tweeting @ Flatiron School_
 
